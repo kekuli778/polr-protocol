@@ -1,0 +1,10 @@
+{
+  "name": "@polr/web",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cp src/index.html dist/index.html",
+    "start": "node dist/static-server.js",
+    "test": "node -e \"console.log('web-no-tests')\""
+  }
+}
