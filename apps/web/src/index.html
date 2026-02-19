@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>POLR Full-Stack Demo</title>
+    <style>
+      body { font-family: sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+      textarea { width: 100%; min-height: 120px; margin-bottom: 1rem; }
+      button { padding: 0.5rem 1rem; margin-right: 0.75rem; }
+      pre { background: #f4f4f4; padding: 1rem; overflow: auto; }
+    </style>
+  </head>
+  <body>
+    <h1>POLR Full-Stack Reference Demo</h1>
+    <p>Create Layer A + B attestations and verify them with the API.</p>
+    <textarea id="inputText">Human-authored publication sample</textarea>
+    <div>
+      <button id="attestBtn">Create Attestation</button>
+      <button id="verifyBtn">Verify Last Attestation</button>
+    </div>
+    <h3>Response</h3>
+    <pre id="output">No response yet.</pre>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
